@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.up{
+    width: auto;
+    height: 250px;
+  animation: sky 10s linear infinite normal forwards;
+}
+@keyframes sky {
+    0% {
+        background-color: #FF5722 ;
+    }
+    25% {
+        background-color: #48cae4 ;
+    }
+    50% {
+        background-color: #0096c7 ;
+    }
+    75%{
+        background-color: #48cae4 ;
+    }
+    100% {
+        background-color: #FF5722  ;
+    }
+}
+.down{
+    width: auto;
+    height: 470px;
+ background-color: rgb(59, 141, 59);
+}
+section{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#f48c06 ;
+    animation: sun 10s  infinite normal forwards;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+@keyframes sun {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(20vw, -120px);
+    }
+    50% {
+      transform: translate(50vw, -180px);
+    }
+    75% {
+      transform: tanslate(70vw, -120px);
+    }
+    100% {
+      transform: translate(90vw, 0);
+    }
+  }
